@@ -9,6 +9,10 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    chromatic: { 
+      viewports: [320, 1200],
+      disableSnapshot: true
+  },
   },
 };
 
